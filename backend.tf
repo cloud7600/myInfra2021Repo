@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket = "jlo-tf-state-bucket"
     key = "main"
-    region = "us-east-2"
+    region = "eu-west-2"
     dynamodb_table = "my-dynamodb-table"
   }
 }
