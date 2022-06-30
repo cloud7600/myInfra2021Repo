@@ -3,6 +3,6 @@ terraform {
     bucket = "jlo-tf-state-bucket"
     key = "main"
     region = "eu-west-2"
-    dynamodb_table = "my-dynamodb-table"
+    dynamodb_table = "jlo-dynamodb-table"
   }
 }
